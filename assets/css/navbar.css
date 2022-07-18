@@ -1,0 +1,163 @@
+.nav_peincipal{
+    width: 100% !important;
+    display: flex;
+    justify-content: space-around !important;
+    align-items: center;
+}
+
+.nav_peincipal ul{
+    padding: 8px;
+    margin: 0;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+}
+
+.nav_peincipal ul  li{
+    list-style: none;
+}
+
+.nav_peincipal ul  li a{
+    margin: 0px 20px;
+}
+
+.iconos_menus{
+    font-size: 25px;
+}
+.iconos_menus a{
+    margin-left: 0px;
+    padding: 5px 9px;
+    border-radius: 50%;
+    background: #bc8c4c;
+}
+.icon_menu{
+    background: #bc8b4c00 !important;
+}
+
+.titulo_categoria{
+    color: rgb(47, 46, 46);
+}
+.center_div{
+    text-align: center;
+}
+
+.tarjeta_foto{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+@media (min-width: 700px){
+    .logo_header{
+        display: none;
+    }
+    .icon_menu{
+        display: none;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 700px){
+    .nav_peincipal ul{
+        display: none;
+    }
+    .logo_header{
+        padding: 0px 0px;
+    }
+
+    .nav_peincipal{
+        width: 100% !important;
+        display: flex;
+        justify-content: space-between !important;
+        align-items: center;
+        padding: 0px 20px;
+    }
+    .nav-first{
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The side navigation menu */
+.sidenav {
+    z-index: 999999 !important;
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    top: 0;
+    left: 0;
+    background-color: rgba(17, 17, 17, 0.829); /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+  
+  /* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav li {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+  /* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav li:hover {
+    padding-left: 80px;
+}
+  
+  /* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+  
+
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
